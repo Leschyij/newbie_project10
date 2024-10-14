@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+main {
+    background-color: hsl(0, 0%, 95%);
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 60%;
+    display: flex;
+    border-radius: 15px;
+}
+
+section {
+    padding: 60px 40px;
+}
+
+section img {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    font-size: 2rem;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+section p {
+    margin-bottom: 4rem;
+}
+
+section button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-family: Lexend Deca;
+    font-size: 15px;
+}
+
+section button:hover {
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 14px 30px;
+    cursor: pointer;
+}
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0 0 15px;
+}
+
+#sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+#sedans button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+#suvs button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0;
+}
+
+#luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+#luxury button:hover {
+    color: hsl(0, 0%, 95%);
+}
