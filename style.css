@@ -104,3 +104,31 @@ section button:hover {
 #luxury button:hover {
     color: hsl(0, 0%, 95%);
 }
+
+@media screen and (max-width: 1150px) {
+    #container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    main {
+        max-width: 375px;
+        height: min-content;
+        padding: 60px 0;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    #sedans {
+        border-radius: 15px 15px 0 0;
+    }
+
+    #luxury {
+        border-radius: 0 0 15px 15px;
+    }
+}
